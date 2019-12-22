@@ -811,12 +811,36 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     text-decoration: none;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1366px) {
     #lucas,#confaward,#subregional,#test {
         padding: 150px;
         padding-top: 200px;
         padding-bottom: 200px; 
+        background-attachment: inherit !important;
     }
+    #photo,#photo2,#photo3,#lucas,#confaward,#subregional,#test,
+    #subregional,#bowl,#volley, #confGroup,#acd ,
+    #study,#scholar, #acdWork,#pro,#resumeWork,#close,
+    #leadshpe,#emmanuelTalking,#awardPhoto ,#chp ,
+    #memretreat, #icesocial,#imural , #service,
+    #service2, #outreach ,#former ,#former2 ,
+    #former3 ,#former4,#faq ,#sponsor,
+    #boil ,#review, #fin  {
+        background-attachment: inherit !important;
+    }
+}
+
+@media (max-width: 1030px) {
+    #photo,#photo2,#photo3,#lucas,#confaward,#subregional,#test,
+    #subregional,#bowl,#volley, #confGroup,#acd ,
+    #study,#scholar, #acdWork,#pro,#resumeWork,#close,
+    #leadshpe,#emmanuelTalking,#awardPhoto ,#chp ,
+    #memretreat, #icesocial,#imural , #service,
+    #service2, #outreach ,#former ,#former2 ,
+    #former3 ,#former4,#faq ,#sponsor,
+    #boil ,#review, #fin  {
+        background-attachment: inherit !important;
+    } 
 }
 
 @media (min-width: 751px){
