@@ -838,9 +838,43 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
     #photo {
         padding: 75px;
+        background-attachment: inherit;
     }
     #photo2,#photo3,#lucas,#confaward,#subregional,#test {
         padding: 150px;
+        background-attachment: inherit;
+    }
+    
+    #subregional,
+    #bowl,
+    #volley, 
+    #confGroup,
+    #acd ,
+    #study,
+    #scholar, 
+    #acdWork,
+    #pro,
+    #resumeWork,
+    #close,
+    #leadshpe, 
+    #emmanuelTalking,
+    #awardPhoto ,
+    #chp ,
+    #memretreat, 
+    #icesocial,
+    #imural ,
+    #service,
+    #service2, 
+    #outreach ,
+    #former ,
+    #former2 ,
+    #former3 ,
+    #former4,
+    #faq ,
+    #sponsor,
+    #boil ,
+    #review, 
+    #fin  {
         background-attachment: inherit;
     }
     #social {
