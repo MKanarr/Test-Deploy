@@ -841,6 +841,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
     #photo2,#photo3,#lucas,#confaward,#subregional,#test {
         padding: 150px;
+        background-attachment: inherit;
     }
     #social {
         font-size: 10px;
