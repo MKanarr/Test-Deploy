@@ -845,36 +845,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         background-attachment: inherit;
     }
     
-    #subregional,
-    #bowl,
-    #volley, 
-    #confGroup,
-    #acd ,
-    #study,
-    #scholar, 
-    #acdWork,
-    #pro,
-    #resumeWork,
-    #close,
-    #leadshpe, 
-    #emmanuelTalking,
-    #awardPhoto ,
-    #chp ,
-    #memretreat, 
-    #icesocial,
-    #imural ,
-    #service,
-    #service2, 
-    #outreach ,
-    #former ,
-    #former2 ,
-    #former3 ,
-    #former4,
-    #faq ,
-    #sponsor,
-    #boil ,
-    #review, 
-    #fin  {
+    #subregional,#bowl,#volley, #confGroup,#acd ,
+    #study,#scholar, #acdWork,#pro,#resumeWork,#close,
+    #leadshpe,#emmanuelTalking,#awardPhoto ,#chp ,
+    #memretreat, #icesocial,#imural , #service,
+    #service2, #outreach ,#former ,#former2 ,
+    #former3 ,#former4,#faq ,#sponsor,
+    #boil ,#review, #fin  {
         background-attachment: inherit;
     }
     #social {
