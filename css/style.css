@@ -840,7 +840,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         padding: 75px;
         background-attachment: inherit !important;
     }
-    
+
     #photo2,#photo3,#lucas,#confaward,#subregional,#test,
     #subregional,#bowl,#volley, #confGroup,#acd ,
     #study,#scholar, #acdWork,#pro,#resumeWork,#close,
@@ -862,6 +862,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
     #newback {
         padding: 25px;
+    }
+    .reviewRes {
+        max-width: 250px;
+        max-height: 750px;
+        width: auto;
+        height: auto;
     }
     .school,.nat {
         font-size: 25px;
