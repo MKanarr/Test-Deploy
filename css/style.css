@@ -584,7 +584,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         padding: 150px;
     }
     .reviewRes {
-        max-width: 300px;
+        max-width: 250px;
         max-height: 750px;
         height: auto;
         width: auto;
