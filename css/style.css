@@ -302,6 +302,11 @@ body{
     height: 75%;
 }
 
+/* .carousel-inner > .carousel-item > .img {
+    height: 25%;
+    width: 50%;
+} */
+
 .newback {
     padding: 50px;
 }
@@ -542,6 +547,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     width: 100%;
 }
 
+.for-mobile {
+    display: none;
+}
+
 /* Get around ipad pro issue */
 @media (min-width: 1280px) and (max-width: 1365px) , (min-width: 1367px) {
     .plax {
@@ -549,7 +558,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 }
 
-
+/*Calendar Adjustment*/
 @media (min-width: 300px) and (max-width: 1023px){
     .big-container {
         display: none;
@@ -574,7 +583,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #photo {
         padding: 75px;
     }
-    #photo2,#photo3,#subregional,#confaward,#lucas,
+    #photo2,#photo3,#photo4,#subregional,#confaward,#lucas,
     #chp,#memretreat,#icesocial,#imural,#faq,
     #former,#former2,#former3,#former4,#leadshpe,
     #emmanuelTalking,#awardPhoto,#bowl,#volley,
@@ -600,10 +609,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .icon {
         font-size: 15px !important;
     }
-    .motto {
+    .motto,.rem,.non-mobile {
        display: none;
     }
-    .rem  {
-        display: none;
+    .for-mobile {
+        display: inherit;
     }
 }
