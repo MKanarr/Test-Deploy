@@ -436,14 +436,14 @@ body{
     box-shadow: 0 0 4px rgba(0,0,0,.1);
 }
 
-.footer {
+.footer,.footer2 {
     color:  #777;
     text-decoration: none;
     font-size: 25px;
     padding: 5px
 }
 
-.footer:hover {
+.footer:hover,.footer2:hover {
     color:  rgb(80, 0, 0);
     text-decoration: none;
     font-size: 25px;
@@ -569,7 +569,23 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .small-container {
         display: none;
     }
+    #name {
+        font-size: 12px;
+    }
+
+    #posiiton {
+        font-size: 12px;
+    }
+    .eInfo,#major{
+        font-size: 12px;
+    }
+    
+    .footer2 {
+        font-size: 15px;
+    }
+
 }
+
 
 /*fix issues with ipad*/
 @media (min-width: 760px) {
@@ -580,6 +596,16 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 /*mobile devices*/
 @media (max-width: 750px) {
+    #name {
+        font-size: 15px;
+    }
+
+    #posiiton {
+        font-size: 12px;
+    }
+
+    /*Can't spell too lazy to fix*/
+
     #photo {
         padding: 75px;
     }
@@ -614,5 +640,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
     .for-mobile {
         display: inherit;
+    }
+    .eInfo, #major {
+        font-size: 10px;
+    }
+    .footer2 {
+        font-size: 15px;
     }
 }
