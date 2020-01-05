@@ -302,11 +302,6 @@ body{
     height: 75%;
 }
 
-/* .carousel-inner > .carousel-item > .img {
-    height: 25%;
-    width: 50%;
-} */
-
 .newback {
     padding: 50px;
 }
@@ -551,6 +546,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: none;
 }
 
+.forIpad {
+    display: none;
+}
+
 /* Get around ipad pro issue */
 @media (min-width: 1280px) and (max-width: 1365px) , (min-width: 1367px) {
     .plax {
@@ -582,6 +581,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     
     .footer2 {
         font-size: 15px;
+    }
+    .forIpad {
+        display: inherit;
     }
 
 }
