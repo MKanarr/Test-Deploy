@@ -1,7 +1,7 @@
 body{
     background: #eeeeee;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     margin: 0 auto;
     padding: 0;
 }
@@ -577,6 +577,7 @@ FOR TEST PAGE
 }
 
 .shpe_mission {
+
     font-size: 50px;
 }
 
@@ -595,7 +596,7 @@ FOR TEST PAGE
 }
 
 #about_banner {
-    background-image: url("../pictures/IMG_20191031_182250.jpg");
+    background-image: linear-gradient(to bottom right, rgba(80, 0, 0, 0.5), rgba(65, 60, 60, 0.322)), url("../pictures/IMG_20191031_182250.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -603,12 +604,11 @@ FOR TEST PAGE
     width: 100vw;
     height: 100vh;
     max-width: 100%;
-    opacity: 0.75;
     padding-top: 150px;
 }
 
 #history_banner {
-    background-image: url("../pictures/IMG_8367.jpg");
+    background-image: linear-gradient(to bottom right, rgba(60, 60, 60, 0.5), rgba(65, 60, 60, 0.5)), url("../pictures/IMG_8367.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
